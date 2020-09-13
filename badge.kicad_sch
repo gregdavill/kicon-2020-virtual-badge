@@ -1,0 +1,18 @@
+(kicad_sch (version 20200827) (generator eeschema)
+
+  (page 1 1)
+
+  (paper "A4")
+
+  (title_block
+    (title "KiCon 2020 Virtual Edition DIY Badge")
+    (rev "0.1")
+  )
+
+  (lib_symbols
+  )
+
+
+  (symbol_instances
+  )
+)
