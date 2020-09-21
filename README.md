@@ -1,19 +1,34 @@
-# KiCon 2020 Virtual Badge Template
+# KiCon 2020 Virtual Badge by Thomas Flummer
 
 ![Render](RENDER/workshop_table_badge.jpg)
 
-## Virtualizing #badgelife
+## Experimentation with tiny LEDs and LiPo charge and protection circuit
 
-Since this years KiCon will be a virtual event, there won't be a traditional badge to go hack on, but instead, I have made this simple template for a KiCon 2020 badge, that we all can use as a starting point to create our own badges with exactly the stuff we would like to hack on.
+The electronics on this badge is mainly a few experiments with stuff that I would like to test and experiment a little with and then a bit of control parts to keep everything on a single board.
 
-There isn't really any rules, but I think it would be cool if the badge you make can be recognized as being part of this, so maybe keeping the overall shape and logo, but if you want to scale it down and make PCB earrings that light up or try out a new color combination from your favorite PCB manufacturer, by all means go for it!
+The two primary things I'm testing is:
 
-The shape fits within a 100x100mm square, so having these produced in low quantity should be fairly cheap.
+- 1S LiPo charge and protection circuit
+- Soldering and controlling very small (1x1mm) RGB LEDs
 
-With most of the focus for this years event being on the upcomming KiCad version 6, this project is made using a recent nightly build and would require a fairly recent version to open up without errors or a need for manual file tweaking.
+The microcontroller on the board is a Microchip SAMD21 and most of the controller circuit is actually copied from the [2020 BornHack badge](https://github.com/bornhack/badge2020).
 
-There is only very limited time left, but it should be enough to do a simple design and actually order PCBs and have them for the event, but using this to experiment with different ways to render PCBs in 3D and maybe blending it with the real world would ofcourse also be super cool.
+Another experiment is reusing nested sheets for the schematic, and updating them to work with the nightly builds of KiCad, which actually went fairly smooth, though a bit of relinking symbols was needed.
+
+## On board prototyping area
+
+In addition to the microcontroller, LiPo control circuit and the LED drivers and LEDs, there are also a few buttons and all unused pins on the SAMD21 has been broken out to test points. This makes the badge useable as a test platform for other things and the combination of SMD and PTH proto pads allows for a bit of tinkering with various other parts or breakout boards, eg. sensors, screens or maybe more LEDs.
+
+## Firmware for the SAMD21
+
+My plan is to put [circuitpython](https://circuitpython.org/) on my badge, but an Arduino bootloader or maybe Zephyr could also be options. The extra SPI flash (which is optional), can be used to save circuitpython libraries and code and even though the SAMD21 isn't the most powerful controller, it's perfect for a bit of quick testing and tinkering.
+
+## Making your own
+
+If you want to make your own, I have included the gerbers, in case you don't want to install the nightly version.
+
+Since some of the parts are a bit small I recommend getting a stencil for solderpaste and when applying, being very careful not to smudge the paste, especially on the USB connector and the two 0.4mm pitch QFN44 LED driver chips, since they are a bit prone to bridges.
 
 ## Please share
 
-If you decide to make something, please share the files and not least images so we can all see all the lovely badges. If sharing on social media, please use the #badgelife tag and please let [me](https://thomasflummer.com/) know, I would lovo to see what you have made!
+If you decide to make this badge or a variant of it, please share images so we can all see it and get inspired. If sharing on social media, please use the #badgelife tag and please let [me](https://thomasflummer.com/) know, I would love to see what you have made!
