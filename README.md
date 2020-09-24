@@ -1,6 +1,6 @@
 # KiCon 2020 Virtual Badge by Greg Davill
 
-![Render](RENDER/badge.jpg)
+![Render](RENDER/workshop_table_badge.jpg)
 
 Based off the design+template by [Thomas Flummer](https://gitlab.com/flummer/kicon-2020-virtual-badge)
 
