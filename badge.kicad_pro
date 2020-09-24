@@ -120,8 +120,8 @@
       ],
       "via_dimensions": [
         {
-          "diameter": 0.8,
-          "drill": 0.4
+          "diameter": 0.6,
+          "drill": 0.3
         },
         {
           "diameter": 0.45,
@@ -321,7 +321,7 @@
     "classes": [
       {
         "bus_width": 6.0,
-        "clearance": 0.2,
+        "clearance": 0.18,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -332,8 +332,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6.0
       }
     ],
@@ -379,20 +379,80 @@
   },
   "sheets": [
     [
-      "db885202-fe41-473e-94df-9a892529e738",
+      "517f9014-e9f4-4696-920a-9db13b1aeaa5",
       ""
+    ],
+    [
+      "9d1ab8a7-551e-4acd-bdbd-902f3132e84e",
+      "SAMD21"
     ],
     [
       "82f21894-a473-468f-9e64-7bc4d6d80b53",
       "ISSI 12 RGB A"
     ],
     [
-      "d58f61a0-3085-4d91-a5a0-bda36c3209ed",
-      "ISSI 12 RGB B"
+      "0bae03fc-c23e-43d4-a377-cd75374c187e",
+      "sheet5D7371BF"
     ],
     [
-      "9d1ab8a7-551e-4acd-bdbd-902f3132e84e",
-      "SAMD21"
+      "af844cd8-bf93-40bb-937d-8ed8be16f474",
+      "sheet5D7371D0"
+    ],
+    [
+      "ea94466b-9b91-45ef-8c3d-7257450a5775",
+      "sheet5D7371E3"
+    ],
+    [
+      "03ec2269-bd5c-4279-bff7-3dd5acfcfd11",
+      "sheet5D7371F5"
+    ],
+    [
+      "4d6c15f1-3c0c-4c76-8937-1de6c2d8a4a8",
+      "sheet5D737207"
+    ],
+    [
+      "db87d6d6-5f1c-40f3-8717-53b2e713dad3",
+      "sheet5D737218"
+    ],
+    [
+      "c856a5dd-76e8-4ebd-88a6-935e716b064c",
+      "sheet5D73722B"
+    ],
+    [
+      "e8953108-a580-45d3-864d-a6f4fa4991f5",
+      "sheet5D73723C"
+    ],
+    [
+      "24cee343-6512-4a7e-b3ee-eb0ef649fc2e",
+      "sheet5D7371BF1"
+    ],
+    [
+      "572fe939-3c18-4d9c-8387-eaedb60583f1",
+      "sheet5D7371D01"
+    ],
+    [
+      "6b7f91b1-6825-4ad8-8d22-abdecd24ca7a",
+      "sheet5D7371E31"
+    ],
+    [
+      "3dfab872-7e09-4606-9cf1-d122976b964c",
+      "sheet5D7371F51"
+    ],
+    [
+      "177b6f7d-bed0-4d18-8a36-2a296d47e83d",
+      "sheet5D7372071"
+    ],
+    [
+      "277d4e97-2b79-4791-849f-ad513df78377",
+      "sheet5D7372181"
+    ],
+    [
+      "7f9e0e73-cc22-42c5-8cb3-5608382a3f05",
+      "sheet5D73722B1"
+    ],
+    [
+      "602797c9-f421-4fdd-abf6-d79bfaac23f3",
+      "sheet5D73723C1"
     ],
     [
       "929a220d-da62-4a95-89b8-86720540a2c3",
