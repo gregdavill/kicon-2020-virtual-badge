@@ -1,6 +1,6 @@
 # KiCon 2020 Virtual Badge by Greg Davill
 
-![Render](RENDER/workshop_table_badge.jpg)
+![Photo](hardware/PHOTO/IMG_9599.JPG)
 
 Based off the design+template by [Thomas Flummer](https://gitlab.com/flummer/kicon-2020-virtual-badge)
 
@@ -19,6 +19,8 @@ At any rate I'd recommend using a solderpaste stencil and reflow oven.
 
 If you want to make your own, I have included the gerbers, in case you don't want to install the nightly version.
 The board is 4 layers mostly to assist in routing of the matrix. The cost difference between 2L and 4L at JLC is only $5 on their barebones service.
+
+![Render](hardware/RENDER/workshop_table_badge.jpg)
 
 ## Please share
 
